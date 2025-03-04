@@ -1,2 +1,154 @@
-<h1>This is my homepage.</h1>
-<body>Double checking the website reads what i have written.</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> praticing making a website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--copied google link for bagel fat one and sour gummy font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+
+    <style>
+    
+      /*
+      *{
+      border: 1px red dashed;
+      }
+      */
+  
+
+      html{
+        min-height: 100%;
+      }
+
+      body{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(90deg, #97609b, #6c2c72, #814388, #975a9f, #ad71b6, #c389ce, #daa1e6, #f1baff);
+        color:aliceblue;
+        font-family: "Sour Gummy";
+      
+
+      }
+
+      a{
+        color: rgb(19, 48, 72);
+        text-decoration: none;
+      }
+
+      .item{
+        background-color:rgb(215, 250, 246);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px (rgba 122,32,122,0.5);
+      }
+
+      .avatar-image{
+          width: 128px;
+          height: 128px;
+          object-fit: cover;
+          border-radius: 128px;
+      }
+
+      .thumbnails{
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      .main-container{
+        max-width: 640px;
+        margin: auto;
+      }
+
+      .image-row{
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row{
+        margin-bottom:30px;
+        text-align: center;
+        font-family: "Bagel Fat One";
+        font-size: 24px;
+        font-weight: 900;
+      }
+
+      .social-icons-row{
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .link-text{
+        text-align:center;
+        flex-grow: 1;
+      }
+
+
+    </style>
+  </head>
+
+  <Body>
+<div class="main-container">
+
+  <div class="image-row">
+    <img class="avatar-image" src="/thumbnails/biel-morro-bsSIk3LV_NE-unsplash.jpg" alt="cat peeping out">
+  </div>
+
+  <div class="name-row">
+    All About Cats
+</div>
+
+<div class="social-icons-row">
+
+<a href="https://www.instagram.com/cats_of_instagram/?hl=en" target="_blank">
+  <i class="fa-brands fa-instagram"></i>
+  Cats of Instagram
+  
+</a>
+  <a href="https://www.instagram.com/nala_cat/?hl=en" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+    Nala Cat
+  </a>
+
+</div> <!--closing of social-icons-row-->
+
+<div class="links-row">
+  <div class="item">
+    <img src="/thumbnails/bogdan-farca-CEx86maLUSc-unsplash.jpg"  class="thumbnails" alt="cat">
+  <a href="https://www.rspca.org.uk/adviceandwelfare/pets/cats" class="link-text" target="_blank"> 
+      Cat Care Tips
+    </a> 
+  </div> 
+
+  <div class="item">
+    <img src="/thumbnails/cyrus-chew-Dl39g6QhOIM-unsplash.jpg" class="thumbnails" alt="cat">
+  <a href="https://www.mspca.org/pet_resources/interesting-facts-about-cats/" target="_blank" class="link-text">
+Interesting Facts About Cats
+  </a>
+  </div>
+ 
+  <div class="item">
+    <img src="/thumbnails/lloyd-dirks-R1oSj2m-7Ks-unsplash (1).jpg" class="thumbnails" alt="cat">
+    <a href="https://en.wikipedia.org/wiki/Cat" target="_blank" class="link-text">
+      Wiki 
+    </a>
+  </div>
+
+</div> <!--closing of link-rows-->
+
+</div> <!--closing of main container-->
+
+  </Body>
+
+</html>
