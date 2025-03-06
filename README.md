@@ -1,5 +1,5 @@
 # static-html-template
-- making website: -- All About Cats ---
+making website: -- All About Cats ---
 - apply the basic structure of Html to create html website;
 - use <meta> tag so website is accessible and  responsive design to work in all devices
 - setup external links to open in new tabs about website topic;
