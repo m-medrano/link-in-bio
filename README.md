@@ -4,6 +4,7 @@ making website: -- All About Cats ---
 - use <meta>  meta tag so website is accessible and a responsive design to work in all devices
 - setup external links to open in new tabs about website topic;
 - use CSS to style website by adding text color, backgound color, change font size and style;
-- use
+- apply CSS rules to style class groups and add different properties to have links and images fit properly on website
+- 
 
 Use this template to create static HTML websites and deploy them on Render.
